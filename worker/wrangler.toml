@@ -6,7 +6,7 @@ compatibility_date = "2025-01-01"
 # Paste the printed id below.
 [[kv_namespaces]]
 binding = "VISITORS"
-id = "PASTE_YOUR_KV_NAMESPACE_ID_HERE"
+id = "abcdb2c3f62b47089dbcde6337585054"
 
 [vars]
 # Comma-separated list of sites allowed to call this Worker.

@@ -119,7 +119,7 @@
   ],
   "showPoweredBy": false,
   "visitorGlobe": {
-    "_comment": "Paste your deployed Cloudflare Worker URL here. Empty = globe spins with no data.",
-    "endpoint": ""
+    "_comment": "Cloudflare Worker backing the visitor globe. See worker/README.md. Empty = globe spins with no data.",
+    "endpoint": "https://visitor-globe.kelvin715.workers.dev"
   }
 }

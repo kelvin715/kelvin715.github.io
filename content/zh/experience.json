@@ -2,66 +2,105 @@
   "education": {
     "courses": [
       {
-        "course": "撒娇科学硕士",
-        "institution": "Yaoyao 的膝盖实验室",
-        "year": "2024-2026"
+        "course": "计算机科学 博士",
+        "institution": "阿尔伯塔大学",
+        "year": "2027 至今"
       },
       {
-        "course": "乖乖艺术学士",
-        "institution": "温馨小窝",
-        "year": "2020-2024"
+        "course": "计算机科学 硕士",
+        "institution": "新加坡国立大学",
+        "year": "2025 - 2026",
+        "note": "GPA 4.7/5 · 院长嘉许名单（前 5%）"
+      },
+      {
+        "course": "访问学生",
+        "institution": "香港理工大学",
+        "year": "2023"
+      },
+      {
+        "course": "软件工程 学士",
+        "institution": "山东大学",
+        "year": "2020 - 2024",
+        "note": "GPA 91.78/100 · 排名 3/96"
       }
     ]
   },
-  "reviewing": [
-    { "venue": "国际零食公平会议 2026", "role": "审稿人" },
-    { "venue": "跨物种玩耍动力学研讨会 2025", "role": "审稿人" }
-  ],
+  "reviewing": [],
   "timeline": [
     {
-      "title": "资深撒娇研究员",
-      "company": "温暖角落",
-      "companyUrl": "#",
-      "location": "Yaoyao 身边",
-      "start": "2024-09-01",
+      "title": "研究实习生（硕士毕业论文）",
+      "company": "新加坡国立大学 计算机学院",
+      "companyUrl": "https://www.comp.nus.edu.sg/",
+      "location": "新加坡",
+      "start": "2026-01-01",
       "category": "research",
       "roleType": "research",
       "isCurrent": true,
-      "summary": "研究方向：取暖行为优化和人类距离最小化。",
+      "summary": "研究方向：基于 XGBoost 的变分流匹配，用于混合类型表格数据生成。",
       "highlights": [
-        "在居家办公时段实现了 100% 的膝盖占领率。",
-        "发现握手可将零食获取率提升 60%。",
-        "与 Lucas 合著了一篇关于最优阳光共享时间表的论文。"
+        "设计了基于 XGBoost 的变分流匹配框架，用于混合类型表格数据生成：数值特征使用回归头，类别特征使用多分类头。",
+        "实现并在 9 个公开数据集上与 12 个神经网络及树模型基线进行了系统评测。",
+        "在 13 个生成器中取得最优平均排名，同时兼顾生成保真度、下游任务效用与经验隐私风险。"
       ]
     },
     {
-      "title": "初级玩耍伙伴",
-      "company": "Lucas & Cookie 联合公司",
-      "companyUrl": "#",
-      "location": "客厅",
-      "start": "2023-01-15",
-      "end": "2024-05-20",
+      "title": "研究科学家实习生",
+      "company": "乐天亚洲 (Rakuten Asia)",
+      "companyUrl": "https://rakuten.asia/",
+      "location": "新加坡",
+      "start": "2025-10-01",
+      "end": "2026-03-31",
+      "category": "industry",
+      "roleType": "research",
+      "summary": "面向对话式购物的推理增强商品搜索系统。",
+      "highlights": [
+        "构建了面向对话式购物的推理增强商品搜索系统，利用大模型抽取属性、比较商品、过滤候选并重排结果。",
+        "结合相关性与互动度的复合奖励做强化学习后训练，在多意图查询上相比 SFT 基线提升了 Recall@3 与任务成功率。"
+      ]
+    },
+    {
+      "title": "研究实习生",
+      "company": "微软亚洲研究院 (DKI 组)",
+      "companyUrl": "https://www.microsoft.com/en-us/research/lab/microsoft-research-asia/",
+      "location": "中国 北京",
+      "start": "2025-02-01",
+      "end": "2025-06-30",
       "category": "research",
       "roleType": "research",
+      "summary": "数据、知识与智能组。研究方向：面向表格学习与推理的大语言模型。",
       "highlights": [
-        "与布偶猫弟弟 Lucas 开发了跨物种玩耍协议。",
-        "优化了追逐翻滚序列，实现最大乐趣与最小家具损伤。",
-        "在年度客厅玩耍大赛中获得最佳搭档奖。"
+        "提出 ForestLLM：基于大语言模型构建可解释随机森林，用于小样本表格分类与回归。",
+        "对 GPT、Qwen、LLaMA、DeepSeek 等模型做表格问答方向的后训练，提升了数值推理与表格理解能力。"
       ]
     },
     {
-      "title": "零食品鉴实习生",
-      "company": "厨房台面实验室",
-      "companyUrl": "#",
-      "location": "厨房",
-      "start": "2025-06-01",
-      "end": "2025-08-31",
+      "title": "应用科学家",
+      "company": "第四范式",
+      "companyUrl": "https://www.4paradigm.com/",
+      "location": "中国 上海",
+      "start": "2024-07-01",
+      "end": "2025-01-31",
       "category": "industry",
-      "roleType": "sde",
+      "roleType": "mle",
+      "summary": "视频推荐与 K-12 数学推理方向的生产级机器学习方案。",
       "highlights": [
-        "使用先进的闻一闻尝一尝方法评估了 200+ 种零食。",
-        "将零食浪费率降至 0%（全部样品已消耗）。",
-        "开发了握手换零食流水线，吞吐量提升 3 倍。"
+        "为视频推荐与 K-12 数学推理场景开发并评估生产级机器学习方案。",
+        "工作覆盖特征工程、模型微调到推理优化的完整链路。"
+      ]
+    },
+    {
+      "title": "研究工程实习生",
+      "company": "新加坡科技研究局 资讯通信研究院 (I²R, A*STAR)",
+      "companyUrl": "https://www.a-star.edu.sg/i2r",
+      "location": "新加坡",
+      "start": "2024-01-01",
+      "end": "2024-04-30",
+      "category": "research",
+      "roleType": "research",
+      "summary": "不确定性建模驱动的工业表面缺陷检测。",
+      "highlights": [
+        "研究基于不确定性的图像质量评估方法，用于工业表面缺陷检测。",
+        "探索多模态数据合成方法，以缓解缺陷样本稀缺问题。"
       ]
     }
   ]

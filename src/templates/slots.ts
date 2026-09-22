@@ -22,7 +22,7 @@ export interface HeroSlotProps {
   avatar: string
   research?: { lab: string; emoji: string; advisor?: string; focus: string; link: string }[]
   researchLogos?: Record<string, string>
-  education?: { course: string; institution: string; year: string }[]
+  education?: { course: string; institution: string; year: string; note?: string }[]
   educationLogos?: Record<string, string>
 }
 

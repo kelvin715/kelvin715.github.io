@@ -1,4 +1,4 @@
-import { Box, VStack, Text, useColorModeValue, Image, HStack, Container, Stack, Link, Flex, SimpleGrid, Heading, Tooltip } from '@chakra-ui/react'
+import { Box, VStack, Text, useColorModeValue, Image, HStack, Container, Stack, Link, Flex, SimpleGrid, Heading, Tooltip, useBreakpointValue } from '@chakra-ui/react'
 import { motion } from 'framer-motion'
 import { withBase } from '@/utils/asset'
 import DynamicIcon from '../DynamicIcon'
@@ -21,6 +21,7 @@ interface EducationItem {
   course: string
   institution: string
   year: string
+  note?: string
 }
 
 // Hero Section Component
@@ -33,9 +34,15 @@ interface HeroSectionProps {
   educationLogos?: Record<string, string>
 }
 
+const logoSrc = (p: string) => /^(https?:)?\/\//.test(p) ? p : withBase(p)
+
 const HeroSection = ({ title, avatar, research = [], researchLogos = {}, education = [], educationLogos = {} }: HeroSectionProps) => {
   const { t } = useTranslation()
   const { siteOwner, siteConfig } = useLocalizedData()
+  const subtitleH = useBreakpointValue({ base: 18, sm: 20, md: 24 }) ?? 18
+  const subtitleCount = siteOwner.rotatingSubtitles.length
+  const subtitleYs = [...Array(subtitleCount).keys()].map(i => -i * subtitleH).concat(0)
+  const subtitleTimes = subtitleYs.map((_, i) => (i * 0.9) / subtitleCount)
   const headingColor = useColorModeValue('gray.800', 'white')
   const textColor = useColorModeValue('gray.600', 'gray.400')
   const bg = useColorModeValue('gray.50', 'gray.900')
@@ -131,10 +138,10 @@ const HeroSection = ({ title, avatar, research = [], researchLogos = {}, educati
               <Text fontSize={["xs", "sm"]} color={useColorModeValue('gray.600', 'gray.400')}>{t('hero.sometimesI')}</Text>
               <Box h={["18px", "20px", "24px"]} overflow="hidden">
                 <MotionBox
-                  animate={{ y: [0, -18, -36, -54, -72, -90, 0] }}
+                  animate={{ y: subtitleYs }}
                   transition={{
                     duration: 8,
-                    times: [0, 0.15, 0.3, 0.45, 0.6, 0.75, 0.9],
+                    times: subtitleTimes,
                     repeat: Infinity,
                     ease: "linear"
                   }}
@@ -172,7 +179,7 @@ const HeroSection = ({ title, avatar, research = [], researchLogos = {}, educati
                         <Link key={index} href={item.link} isExternal _hover={{ textDecoration: 'none' }} w="full">
                           <HStack spacing={2.5} p={2} borderRadius="md" transition="all 0.2s" _hover={{ bg: useColorModeValue('gray.100', 'gray.700') }}>
                             {logo ? (
-                              <Image src={logo} alt={item.lab} w="28px" h="28px" borderRadius="sm" objectFit="contain" flexShrink={0} />
+                              <Image src={logoSrc(logo)} alt={item.lab} w="28px" h="28px" borderRadius="sm" objectFit="contain" flexShrink={0} />
                             ) : (
                               <Flex w="28px" h="28px" borderRadius="sm" bg={accentBg} align="center" justify="center" flexShrink={0}>
                                 <Text fontSize="sm">{item.emoji}</Text>
@@ -200,7 +207,7 @@ const HeroSection = ({ title, avatar, research = [], researchLogos = {}, educati
                       return (
                         <HStack key={index} spacing={2.5} p={2} borderRadius="md" w="full">
                           {logo ? (
-                            <Image src={logo} alt={item.institution} w="28px" h="28px" borderRadius="sm" objectFit="contain" flexShrink={0} />
+                            <Image src={logoSrc(logo)} alt={item.institution} w="28px" h="28px" borderRadius="sm" objectFit="contain" flexShrink={0} />
                           ) : (
                             <Flex w="28px" h="28px" borderRadius="sm" bg={accentBg} align="center" justify="center" flexShrink={0}>
                               <Text fontSize="sm" fontWeight="bold" color="blue.500">{item.institution.charAt(0)}</Text>
@@ -209,6 +216,9 @@ const HeroSection = ({ title, avatar, research = [], researchLogos = {}, educati
                           <VStack align="start" spacing={0} flex={1}>
                             <Text fontSize={["xs", "sm"]} fontWeight="medium" lineHeight="short" color={headingColor}>{item.course}</Text>
                             <Text fontSize="2xs" color={textColor} lineHeight="short">{item.institution} · {item.year}</Text>
+                            {item.note && (
+                              <Text fontSize="2xs" color={textColor} lineHeight="short" opacity={0.75}>{item.note}</Text>
+                            )}
                           </VStack>
                         </HStack>
                       )
@@ -226,7 +236,7 @@ const HeroSection = ({ title, avatar, research = [], researchLogos = {}, educati
                 {siteConfig.tagline ?? ''}
               </Text>
               <HStack spacing={2} flexShrink={0}>
-                <Link href={`mailto:${siteOwner.contact.academicEmail}`} isExternal _hover={{ textDecoration: 'none' }}>
+                <Link href={`mailto:${siteOwner.contact.academicEmail || siteOwner.contact.email}`} isExternal _hover={{ textDecoration: 'none' }}>
                   <HStack spacing={1.5} color={textColor} transition="all 0.15s" _hover={{ color: 'cyan.400' }}>
                     <DynamicIcon name="FaEnvelope" boxSize={3.5} />
                     <Text fontSize="xs" fontFamily="mono">email</Text>

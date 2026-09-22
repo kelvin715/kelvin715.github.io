@@ -6,6 +6,8 @@ import { useLocalizedData } from '@/hooks/useLocalizedData'
 import { useSlot } from '@/templates/context'
 import { DEFAULT_SECTIONS } from '@/templates/slots'
 import type { SlotName } from '@/templates/slots'
+import Experience from './Experience'
+import VisitorGlobe from './about/VisitorGlobe'
 
 const researchLogos = institutionLogos
 const universityLogos = institutionLogos
@@ -42,7 +44,7 @@ function About() {
 
   const renderSection = (sectionId: string, index: number) => {
     const key = `${sectionId}-${index}`
-    switch (sectionId as SlotName) {
+    switch (sectionId as SlotName | 'experience' | 'visitors') {
       case 'hero':
         return (
           <HeroSection
@@ -77,6 +79,32 @@ function About() {
         return <Skills key={key} />
       case 'journey':
         return <Journey key={key} />
+      case 'experience':
+        return (
+          <Box key={key} w="full">
+            <Container maxW={["full", "full", "7xl"]} px={[2, 4, 8]}>
+              <Flex align="center" gap={3} mb={4}>
+                <Box h="2px" w="20px" bg="cyan.400" borderRadius="full" flexShrink={0} />
+                <Heading size="md" fontWeight="semibold">{t('nav.experience')}</Heading>
+                <Box flex="1" h="1px" bg={lineColor} />
+              </Flex>
+              <Experience embedded />
+            </Container>
+          </Box>
+        )
+      case 'visitors':
+        return (
+          <Box key={key} w="full">
+            <Container maxW={["full", "full", "7xl"]} px={[2, 4, 8]}>
+              <Flex align="center" gap={3} mb={4}>
+                <Box h="2px" w="20px" bg="cyan.400" borderRadius="full" flexShrink={0} />
+                <Heading size="md" fontWeight="semibold">{t('visitors.heading', 'Visitors')}</Heading>
+                <Box flex="1" h="1px" bg={lineColor} />
+              </Flex>
+              <VisitorGlobe />
+            </Container>
+          </Box>
+        )
       case 'mentorship':
         return <Mentorship key={key} />
       case 'selectedPublications':

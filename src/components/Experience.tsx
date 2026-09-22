@@ -51,7 +51,7 @@ const fmtDateFn = (v: string | undefined, presentLabel: string, lang: string) =>
 }
 
 /* ── Component ─────────────────────────────────────────────────── */
-const Experience: React.FC = () => {
+const Experience: React.FC<{ embedded?: boolean }> = ({ embedded = false }) => {
   const { colorMode } = useColorMode()
   const isDark = colorMode === 'dark'
   const isMobile = useBreakpointValue({ base: true, md: false })
@@ -176,8 +176,8 @@ const Experience: React.FC = () => {
   const termWarning = tc.warning
 
   return (
-    <Box w="full" minH="100vh" bg={bg} py={8}>
-      <VStack spacing={6} maxW="1400px" mx="auto" px={[2, 4, 6]}>
+    <Box w="full" minH={embedded ? undefined : "100vh"} bg={embedded ? "transparent" : bg} py={embedded ? 0 : 8}>
+      <VStack spacing={6} maxW="1400px" mx="auto" px={embedded ? 0 : [2, 4, 6]}>
 
         {/* ── Terminal container ────────────────────────────── */}
         <Box
@@ -251,7 +251,8 @@ const Experience: React.FC = () => {
             <Text color={termCommand} flexShrink={0}>~/career</Text>
           </Flex>
 
-          {/* Education */}
+          {/* Education — omitted when embedded: the About hero already lists it */}
+          {!embedded && (
           <Box px={[3, 5]} py={3} bg={termBg} borderBottom={`1px solid ${termBorder}`}>
             <Flex align="center" gap={2} mb={2.5}>
               <Box w="14px" h="3px" borderRadius="full" bg={termCommand} />
@@ -277,6 +278,7 @@ const Experience: React.FC = () => {
               })}
             </VStack>
           </Box>
+          )}
 
           {/* Filter bar */}
           <Flex

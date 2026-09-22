@@ -168,5 +168,10 @@
     "workshop": "研讨会",
     "demo": "演示专场",
     "preprint": "预印本"
+  },
+  "visitors": {
+    "heading": "访客",
+    "visitors": "位访客",
+    "countries": "个国家"
   }
 }

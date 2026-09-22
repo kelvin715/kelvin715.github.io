@@ -168,5 +168,10 @@
     "workshop": "WORKSHOP",
     "demo": "DEMO TRACK",
     "preprint": "PREPRINT"
+  },
+  "visitors": {
+    "heading": "Visitors",
+    "visitors": "visitors",
+    "countries": "countries"
   }
 }

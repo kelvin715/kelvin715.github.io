@@ -108,6 +108,11 @@ export const publicationVenueColors: Record<string, { bg: (dk: boolean) => strin
     fg: dk => dk ? '#88c0d0' : '#2a769c',
     label: 'CONFERENCE',
   },
+  journal: {
+    bg: dk => dk ? 'rgba(129, 161, 193, 0.15)' : 'rgba(64, 106, 148, 0.1)',
+    fg: dk => dk ? '#81a1c1' : '#406a94',
+    label: 'JOURNAL',
+  },
   workshop: {
     bg: dk => dk ? 'rgba(180, 142, 173, 0.15)' : 'rgba(154, 86, 162, 0.1)',
     fg: dk => dk ? '#b48ead' : '#9a56a2',

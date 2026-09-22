@@ -2,66 +2,105 @@
   "education": {
     "courses": [
       {
-        "course": "Master of Cuddle Sciences",
-        "institution": "Yaoyao's Lap Lab",
-        "year": "2024-2026"
+        "course": "Ph.D. in Computer Science",
+        "institution": "University of Alberta",
+        "year": "2027 - Present"
       },
       {
-        "course": "Bachelor of Good Girl Arts",
-        "institution": "Home Sweet Home",
-        "year": "2020-2024"
+        "course": "M.Sc. in Computer Science",
+        "institution": "National University of Singapore",
+        "year": "2025 - 2026",
+        "note": "GPA 4.7/5 · Dean's List (Top 5%)"
+      },
+      {
+        "course": "Visiting Student",
+        "institution": "The Hong Kong Polytechnic University",
+        "year": "2023"
+      },
+      {
+        "course": "B.Eng. in Software Engineering",
+        "institution": "Shandong University",
+        "year": "2020 - 2024",
+        "note": "GPA 91.78/100 · Rank 3/96"
       }
     ]
   },
-  "reviewing": [
-    { "venue": "International Conference on Treat Fairness 2026", "role": "Reviewer" },
-    { "venue": "Workshop on Cross-Species Play Dynamics 2025", "role": "Reviewer" }
-  ],
+  "reviewing": [],
   "timeline": [
     {
-      "title": "Senior Cuddle Researcher",
-      "company": "The Cozy Corner",
-      "companyUrl": "#",
-      "location": "Next to Yaoyao",
-      "start": "2024-09-01",
+      "title": "Research Intern (Master's Thesis)",
+      "company": "School of Computing, National University of Singapore",
+      "companyUrl": "https://www.comp.nus.edu.sg/",
+      "location": "Singapore",
+      "start": "2026-01-01",
       "category": "research",
       "roleType": "research",
       "isCurrent": true,
-      "summary": "Focus: warmth-seeking optimization and human-proximity maximization.",
+      "summary": "Focus: XGBoost-based variational flow matching for mixed-type tabular generation.",
       "highlights": [
-        "Achieved 100% lap occupation rate during work-from-home hours.",
-        "Discovered that paw shakes increase treat yield by 60%.",
-        "Co-authored a paper with Lucas on optimal sunbeam sharing schedules."
+        "Designed an XGBoost-based variational flow-matching framework for mixed-type tabular generation, using regression heads for numerical features and multiclass classification heads for categorical features.",
+        "Implemented and benchmarked the Python pipeline against 12 neural and tree-based baselines on nine public datasets.",
+        "Achieved the best overall average rank among 13 generators while balancing fidelity, downstream utility, and empirical privacy risk."
       ]
     },
     {
-      "title": "Junior Play Companion",
-      "company": "Lucas & Cookie Inc.",
-      "companyUrl": "#",
-      "location": "Living Room",
-      "start": "2023-01-15",
-      "end": "2024-05-20",
+      "title": "Research Scientist Intern",
+      "company": "Rakuten Asia",
+      "companyUrl": "https://rakuten.asia/",
+      "location": "Singapore",
+      "start": "2025-10-01",
+      "end": "2026-03-31",
+      "category": "industry",
+      "roleType": "research",
+      "summary": "Reasoning-augmented product search for conversational shopping.",
+      "highlights": [
+        "Built a reasoning-augmented product search system for conversational shopping, using an LLM to extract attributes, compare products, filter candidates, and re-rank results.",
+        "Post-trained the model with reinforcement learning on composite relevance and engagement rewards, improving Recall@3 and task success over SFT baselines on multi-intent queries."
+      ]
+    },
+    {
+      "title": "Research Intern",
+      "company": "Microsoft Research Asia (DKI)",
+      "companyUrl": "https://www.microsoft.com/en-us/research/lab/microsoft-research-asia/",
+      "location": "Beijing, China",
+      "start": "2025-02-01",
+      "end": "2025-06-30",
       "category": "research",
       "roleType": "research",
+      "summary": "Data, Knowledge, and Intelligence group. Focus: LLMs for tabular learning and reasoning.",
       "highlights": [
-        "Developed a multi-species play protocol with Ragdoll cat brother Lucas.",
-        "Optimized chase-and-tumble sequences for maximum fun with minimum furniture damage.",
-        "Won Best Duo Award at the annual living room play session."
+        "Developed ForestLLM, an LLM-based approach for constructing interpretable random forests for few-shot tabular classification and regression.",
+        "Post-trained GPT, Qwen, LLaMA, and DeepSeek models for tabular question answering, improving numerical reasoning and table comprehension."
       ]
     },
     {
-      "title": "Treat Quality Intern",
-      "company": "Kitchen Counter Labs",
-      "companyUrl": "#",
-      "location": "Kitchen",
-      "start": "2025-06-01",
-      "end": "2025-08-31",
+      "title": "Applied Scientist",
+      "company": "4Paradigm Ltd.",
+      "companyUrl": "https://www.4paradigm.com/",
+      "location": "Shanghai, China",
+      "start": "2024-07-01",
+      "end": "2025-01-31",
       "category": "industry",
-      "roleType": "sde",
+      "roleType": "mle",
+      "summary": "Production ML for video recommendation and K-12 mathematical reasoning.",
       "highlights": [
-        "Evaluated 200+ treat varieties using advanced sniff-and-taste methodology.",
-        "Reduced treat waste to 0% (consumed all samples).",
-        "Developed a paw-shake-to-treat conversion pipeline with 3x throughput improvement."
+        "Developed and evaluated production ML solutions for video recommendation and K-12 mathematical reasoning.",
+        "Work spanned feature engineering, model fine-tuning, and inference optimization."
+      ]
+    },
+    {
+      "title": "Research Engineer Intern",
+      "company": "Institute for Infocomm Research (I²R), A*STAR",
+      "companyUrl": "https://www.a-star.edu.sg/i2r",
+      "location": "Singapore",
+      "start": "2024-01-01",
+      "end": "2024-04-30",
+      "category": "research",
+      "roleType": "research",
+      "summary": "Industrial surface-defect detection under uncertainty.",
+      "highlights": [
+        "Researched uncertainty-based image-quality assessment for industrial surface-defect detection.",
+        "Explored multimodal data synthesis to augment scarce defect samples."
       ]
     }
   ]

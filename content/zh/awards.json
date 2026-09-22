@@ -1,27 +1,38 @@
 [
   {
-    "title": "最佳搭档奖 — Cookie & Lucas 玩耍大赛",
-    "org": "客厅锦标赛",
-    "date": "Dec 2024",
-    "kind": "competition"
-  },
-  {
-    "title": "邻里握手大赛冠军",
-    "org": "狗公园社区",
-    "date": "Apr 2024",
+    "title": "TikTok TechJam 2026 全球总决赛入围 (Grand Finalist，600+ 队伍中前 12)",
+    "org": "TikTok",
+    "date": "2026 年 9 月",
     "kind": "hackathon"
   },
   {
-    "title": "毛茸茸伙伴奖学金",
-    "org": "国家零食基金会",
-    "date": "Sep 2023",
-    "kind": "scholarship",
-    "link": "#"
+    "title": "计算机学院 院长嘉许名单 (Dean's List，前 5%)",
+    "org": "新加坡国立大学",
+    "date": "2026 年 6 月",
+    "kind": "honor"
   },
   {
-    "title": "最佳撒娇奖（毕业班前 5%）",
-    "org": "温馨小窝学院",
-    "date": "May 2022",
-    "kind": "honor"
+    "title": "新加坡国际预研究生奖 (SIPGA)",
+    "org": "新加坡科技研究局 A*STAR",
+    "date": "2023 年 8 月",
+    "kind": "scholarship"
+  },
+  {
+    "title": "第十六届中国软件创新大赛 国家级奖项 (前 5%)",
+    "org": "中国软件创新大赛",
+    "date": "2023 年 5 月",
+    "kind": "competition"
+  },
+  {
+    "title": "山东大学 学业奖学金 一等奖 (前 5%)",
+    "org": "山东大学",
+    "date": "2022 年 9 月",
+    "kind": "scholarship"
+  },
+  {
+    "title": "山东大学 学业奖学金 三等奖 (前 20%)",
+    "org": "山东大学",
+    "date": "2021 年 9 月、2023 年 9 月",
+    "kind": "scholarship"
   }
 ]

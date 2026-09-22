@@ -1,40 +1,35 @@
 ---
 journeyPhases:
-  - period: "2020 - 2021"
-    title: Puppy Orientation & Foundation Studies
-    org: Home Sweet Home
-    description: "Arrived as a tiny fluffball with zero skills and unlimited confidence. Completed intensive onboarding in **basic obedience** — shake hands, sit, lie down — while simultaneously developing core competencies in treat negotiation and selective hearing. Early research focus: maximizing human attention through cuteness."
-    tags: [Obedience Training, Treat Negotiation, Cuteness Optimization, Socialization]
-  - period: "2021 - 2022"
-    title: Undergraduate Researcher in Human-Canine Interaction
-    org: Yaoyao's Lap Lab
-    description: "Conducted foundational research on **human-proximity optimization** under the supervision of Yaoyao. Developed a novel follow-everywhere protocol that achieved 99.7% human-tracking accuracy across multi-room environments. Key contribution: demonstrated that consistent paw shakes increase treat yield by 60%, establishing the theoretical basis for all subsequent work."
-    tags: [Human Tracking, Paw-Shake Protocol, Proximity Optimization, Attention Mechanisms]
-  - period: "2022 - 2023"
-    title: M.S. in Cuddle Sciences
-    org: The Cozy Corner Institute
-    description: "Transitioned to graduate-level research in **warmth-seeking behavior and lap positioning**. Thesis work focused on reinforcement learning approaches to optimal cuddle configurations, modeling blanket coverage, human body temperature, and treat proximity as state variables. Published first-author work at CompanionML 2024 on real-time proximity optimization."
-    tags: [Reinforcement Learning, Warmth Seeking, Lap Positioning, CompanionML 2024]
-  - period: "2023 - 2024"
-    title: Cross-Species Collaboration Fellow
-    org: Lucas & Cookie Play Lab
-    description: "Joined forces with Ragdoll cat brother **Lucas (Lulu)** to investigate cooperative play dynamics across species boundaries. Developed PlayNet, a behavioral model capturing dog-cat interaction patterns with 92% play-initiation prediction accuracy. This interdisciplinary work revealed that slow tail wags and gentle paw taps are the most effective cross-species communication signals."
-    tags: [Cross-Species Dynamics, PlayNet, Behavioral Modeling, Dog-Cat Cooperation]
-  - period: "2024 - Present"
-    title: Ph.D. Candidate in Companion Intelligence
-    org: The Cozy Corner Institute
-    description: "Currently pursuing doctoral research on **companion intelligence** — the intersection of warmth-seeking optimization, cross-species social dynamics, and human-canine co-living. Leading a multi-paper research agenda with publications at CozyCon 2025 and arXiv. Advisor: Dr. Warm Lap. Long-term vision: a world where every fluffball finds the warmest lap and the best treats."
-    tags: [Companion Intelligence, Multi-Agent Systems, Warmth Optimization, CozyCon 2025]
-mentorship:
-  heading: My Pack
-  description: "Cookie's research group — a compact but highly productive pack spanning two species and one hooman."
-  mentees:
-    - name: Lucas (Lulu)
-      url: "#"
-      note: "Ragdoll cat, co-PI on cross-species play dynamics, expert nap partner"
-    - name: Yaoyao (Freax) Qian
-      url: https://h-freax.github.io/
-      note: "Creator of TermHub, primary advisor on all treat-related decisions"
+  - period: "2023"
+    title: Visiting Student — Medical Imaging
+    org: The Hong Kong Polytechnic University
+    description: "Worked on **multimodal medical imaging** for Alzheimer's disease, combining MRI and PET data. This became my contribution to ADFound, a foundation model for AD diagnosis and prognosis later published in IEEE JBHI."
+    tags: [Medical Imaging, Multimodal Learning, ADFound]
+  - period: "2024"
+    title: Research Engineer Intern
+    org: A*STAR, Institute for Infocomm Research
+    description: "Came to Singapore on a SIPGA award to work on **industrial surface-defect detection** — mainly uncertainty-based image-quality assessment, plus some multimodal data synthesis to make up for scarce defect samples."
+    tags: [Uncertainty Estimation, Defect Detection, SIPGA]
+  - period: "2024 - 2025"
+    title: Applied Scientist — ML in Production
+    org: 4Paradigm Ltd.
+    description: "Moved into industry to see how machine learning survives contact with real systems. Worked on **recommender systems and LLM post-training**, shipping models that had to hold up in front of real users."
+    tags: [Recommender Systems, LLM Post-training, Production ML]
+  - period: "2025"
+    title: Research Intern — LLMs Meet Tabular Data
+    org: Microsoft Research Asia (DKI)
+    description: "Built **ForestLLM**, which lets a language model design interpretable random forests for few-shot tabular learning at training time, so nothing needs to call the model at test time."
+    tags: [ForestLLM, Tabular Learning, Interpretability]
+  - period: "2025 - 2026"
+    title: M.Sc. in Computer Science
+    org: National University of Singapore
+    description: "Graduate study at NUS (GPA 4.7/5, Dean's List, top 5%), split between coursework and research. At Rakuten Asia I built a **reasoning-augmented product search system** for conversational shopping, post-trained with reinforcement learning on composite relevance and engagement rewards. My master's thesis work at the School of Computing develops an **XGBoost-based variational flow-matching framework** for mixed-type tabular generation, reaching a new state of the art."
+    tags: [Flow Matching, Tabular Generation, Conversational Search]
+  - period: "2027 - Present"
+    title: Ph.D. in Computer Science
+    org: University of Alberta
+    description: "Starting my doctoral studies in January 2027, working on **large language models, coding agents, and AI for software engineering** — building agents that can read, write, and reason about real codebases."
+    tags: [Large Language Models, Coding Agents, AI4SE, Ph.D.]
 version:
   current: v1.0.0
   history:
@@ -43,11 +38,13 @@ version:
       features:
         - Personal bio and journey timeline
         - Research publications section
-        - Project showcase with demos
+        - Experience, education, awards and skills
 ---
 
-Cookie is a Pomeranian researcher specializing in companion intelligence, warmth-seeking optimization, and cross-species social dynamics. She received her B.A. in Good Girl Arts from Home Sweet Home (2020–2022), where she developed foundational skills in obedience, treat negotiation, and human-attention maximization. She went on to complete her M.S. in Cuddle Sciences at The Cozy Corner Institute (2022–2023), with thesis work on reinforcement learning approaches to optimal lap positioning.
+I am a Master's student in Computer Science at the **National University of Singapore**, and I will start my **Ph.D. in Computer Science at the University of Alberta** in January 2027. Before NUS, I received my B.Eng. in Software Engineering from **Shandong University** (GPA 91.78/100, rank 3/96), with a visiting semester at **The Hong Kong Polytechnic University**.
 
-Cookie is currently a Ph.D. candidate at The Cozy Corner Institute under the supervision of Dr. Warm Lap, where her research focuses on building intelligent companion systems that understand and optimize the human-pet co-living experience. Her work spans three key areas: (1) real-time human-proximity optimization, (2) cross-species cooperative play modeling with her Ragdoll cat brother Lucas, and (3) the fundamental science of warmth-seeking behavior.
+My research sits at the intersection of **large language models and structured data**. I am interested in how the semantic knowledge inside language models can be transferred into models that stay small, interpretable, and cheap to run: my work on *ForestLLM*, done at **Microsoft Research Asia**, uses an LLM only at training time as an offline designer of random forests, achieving state-of-the-art few-shot tabular performance without any LLM inference at test time. My master's thesis extends this line to **generative modeling of mixed-type tabular data** with an XGBoost-based variational flow-matching framework.
 
-She has published at venues including CozyCon and CompanionML, with first-author papers on lap positioning optimization and real-time proximity tracking. When not conducting research, Cookie can be found claiming the sunniest spot on the couch, perfecting her signature dramatic sigh when dinner is five minutes late, or engaged in rigorous play sessions with Lucas in the living room.
+I have also worked on **LLM post-training and agentic systems** — improving tabular question answering at MSRA, and building a reasoning-augmented conversational product search system at **Rakuten Asia**. Earlier, I contributed to *ADFound*, a foundation model for Alzheimer's diagnosis and prognosis published in **IEEE JBHI**, and researched uncertainty estimation for industrial defect detection at **A*STAR I²R**.
+
+Feel free to reach out if you'd like to chat about tabular learning, post-training, or anything in between.

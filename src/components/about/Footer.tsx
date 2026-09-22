@@ -5,7 +5,9 @@ import { useLocalizedData } from '@/hooks/useLocalizedData'
 
 const Footer: React.FC = () => {
   const { t } = useTranslation()
-  const { siteOwner } = useLocalizedData()
+  const { siteOwner, siteConfig } = useLocalizedData()
+  // Opt-out switch; the badge stays unless site.json turns it off.
+  const showPoweredBy = (siteConfig as Record<string, unknown>).showPoweredBy !== false
   const footerBg = useColorModeValue('gray.50', 'gray.900')
   const textColor = useColorModeValue('gray.600', 'gray.400')
 
@@ -22,6 +24,7 @@ const Footer: React.FC = () => {
       <Container maxW="7xl" px={[4, 6, 8]}>
         <VStack spacing={[3, 4]} textAlign="center">
           {/* Logo */}
+          {showPoweredBy && (<>
           <Link
             href="https://github.com/H-Freax/TermHub"
             isExternal
@@ -52,6 +55,7 @@ const Footer: React.FC = () => {
               TermHub
             </Link>
           </HStack>
+          </>)}
 
           <Text
             fontSize={["2xs", "xs"]}

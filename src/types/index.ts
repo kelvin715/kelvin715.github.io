@@ -42,6 +42,7 @@ export interface Experience {
       course: string
       institution: string
       year: string
+      note?: string
     }[]
   }
   professional: {
@@ -138,7 +139,7 @@ export interface Publication {
   title: string
   authors: string[]
   venue: string
-  venueType: 'conference' | 'workshop' | 'demo' | 'preprint'
+  venueType: 'conference' | 'journal' | 'workshop' | 'demo' | 'preprint'
   year: number
   month?: string
   status: 'accepted' | 'published' | 'preprint'

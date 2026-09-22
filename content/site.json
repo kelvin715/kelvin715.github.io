@@ -1,61 +1,81 @@
 {
   "_comment": "Your basic info. Edit the values below, then run: npm run dev",
-
   "template": "terminal",
   "components": {},
   "sections": [
-    "hero", "bio", "newsDisplay", "selectedPublications",
-    "journey", "skills", "mentorship", "talks", "teaching",
-    "accomplishments", "contact", "footer"
+    "hero",
+    "bio",
+    "newsDisplay",
+    "selectedPublications",
+    "experience",
+    "skills",
+    "accomplishments",
+    "visitors",
+    "contact",
+    "footer"
   ],
-
   "name": {
-    "full": "Cookie",
-    "first": "Cookie",
-    "nickname": "Cookie",
-    "last": "",
-    "display": "Cookie",
-    "authorVariants": ["Cookie"]
+    "full": "Zhihan Yang",
+    "first": "Zhihan",
+    "nickname": "Zhihan",
+    "last": "Yang",
+    "display": "Zhihan Yang",
+    "authorVariants": [
+      "Zhihan Yang",
+      "Yang, Z.",
+      "Z. Yang"
+    ]
   },
-
-  "title": "Woof! I'm Cookie",
-  "tagline": "A fluffy Pomeranian who codes by staying glued to her human, one paw shake at a time.",
-  "avatar": "cookie.jpg",
-
+  "title": "Hi there, I'm Zhihan Yang",
+  "tagline": "M.Sc. student at NUS and incoming CS Ph.D. student at the University of Alberta. My research interests are tabular learning, generative models, and AI agents.",
+  "avatar": "avatar.jpeg",
   "terminal": {
-    "username": "cookie",
+    "username": "zhihan",
     "rotatingSubtitles": [
-      "cuddle with hooman",
-      "shake paws politely",
-      "lie down dramatically",
-      "play with brother Lucas",
-      "nap on hooman's lap"
+      "work on tabular learning",
+      "build generative models",
+      "design AI agents",
+      "train language models"
     ],
     "skills": [
-      { "name": "Shake Hands", "icon": "FaHandshake" },
-      { "name": "Lie Down", "icon": "FaBed" },
-      { "name": "Cuddling", "icon": "FaHeart" },
-      { "name": "Following Hooman", "icon": "FaWalking" },
-      { "name": "Napping", "icon": "FaMoon" },
-      { "name": "Treat Negotiation", "icon": "FaCookie" },
-      { "name": "Playing with Lucas", "icon": "FaCat" },
-      { "name": "Being Fluffy", "icon": "FaStar" }
+      {
+        "name": "LLM Post-training",
+        "icon": "FaBrain"
+      },
+      {
+        "name": "Tabular Learning",
+        "icon": "FaDatabase"
+      },
+      {
+        "name": "Agentic Systems",
+        "icon": "FaRobot"
+      },
+      {
+        "name": "PyTorch",
+        "icon": "FaCode"
+      },
+      {
+        "name": "Python / SQL / C++",
+        "icon": "FaTerminal"
+      },
+      {
+        "name": "Docker / Kubernetes",
+        "icon": "FaProjectDiagram"
+      }
     ],
-    "timezone": "America/Los_Angeles"
+    "timezone": "Asia/Singapore"
   },
-
   "contact": {
-    "email": "limyoonaxi@gmail.com",
-    "academicEmail": "limyoonaxi@gmail.com",
-    "hiringEmail": "limyoonaxi@gmail.com",
-    "location": "Wherever Yaoyao Is"
+    "email": "zhihanyeung@gmail.com",
+    "academicEmail": "",
+    "hiringEmail": "zhihanyeung@gmail.com",
+    "location": "Singapore"
   },
-
   "social": {
-    "github": "https://github.com/H-Freax/TermHub",
-    "linkedin": "",
+    "github": "https://github.com/kelvin715",
+    "linkedin": "https://www.linkedin.com/in/zhihan-yang715/",
     "medium": "",
-    "googleScholar": "",
+    "googleScholar": "https://scholar.google.com/citations?user=6zxy4DUAAAAJ",
     "twitter": "",
     "youtube": "",
     "bilibili": "",
@@ -63,31 +83,43 @@
     "csdn": "",
     "blog": ""
   },
-
-  "pets": [
-    {
-      "name": "Lucas (Lulu)",
-      "emoji": "🐱",
-      "image": "/images/lulu.jpg",
-      "title": "Best Buddy & Little Brother",
-      "description": "Cookie's Ragdoll cat brother. They nap together, chase each other around the house, and share the sunny spot by the window."
-    }
-  ],
-
+  "pets": [],
   "features": {
     "publications": true,
     "projects": true,
-    "articles": true,
+    "articles": false,
     "experience": true,
     "news": true,
-    "pets": true,
-    "guide": true
+    "pets": false,
+    "guide": false
   },
-
   "heroSocialIcons": [
-    { "platform": "twitter", "icon": "SiX", "label": "X", "color": "#000" },
-    { "platform": "youtube", "icon": "FaYoutube", "label": "YouTube", "color": "#FF0000" }
+    {
+      "platform": "googleScholar",
+      "icon": "SiGooglescholar",
+      "label": "Google Scholar",
+      "color": "#4285F4"
+    },
+    {
+      "platform": "github",
+      "icon": "FaGithub",
+      "label": "GitHub",
+      "color": "#333333"
+    },
+    {
+      "platform": "linkedin",
+      "icon": "FaLinkedin",
+      "label": "LinkedIn",
+      "color": "#0A66C2"
+    }
   ],
-
-  "selectedPublicationIds": ["napcon2025-cuddle-optimization", "fetchml2024-warmth-seeking", "arxiv2025-cross-species-play"]
+  "selectedPublicationIds": [
+    "arxiv2026-forestllm",
+    "jbhi2025-adfound"
+  ],
+  "showPoweredBy": false,
+  "visitorGlobe": {
+    "_comment": "Paste your deployed Cloudflare Worker URL here. Empty = globe spins with no data.",
+    "endpoint": ""
+  }
 }

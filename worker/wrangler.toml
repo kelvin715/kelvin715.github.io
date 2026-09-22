@@ -1,0 +1,14 @@
+name = "visitor-globe"
+main = "visitor-globe.js"
+compatibility_date = "2025-01-01"
+
+# Created by:  npx wrangler kv namespace create VISITORS
+# Paste the printed id below.
+[[kv_namespaces]]
+binding = "VISITORS"
+id = "PASTE_YOUR_KV_NAMESPACE_ID_HERE"
+
+[vars]
+# Comma-separated list of sites allowed to call this Worker.
+# Leave empty to allow any origin (convenient while testing).
+ALLOWED_ORIGINS = "https://kelvin715.github.io,http://localhost:5173"

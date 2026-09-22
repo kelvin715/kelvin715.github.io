@@ -375,6 +375,7 @@ const PublicationsTerminal: React.FC = () => {
               >
                 <option value="all">All Venues</option>
                 <option value="conference">Conferences</option>
+                <option value="journal">Journals</option>
                 <option value="workshop">Workshops</option>
                 <option value="demo">Demo</option>
                 <option value="preprint">Preprints</option>
@@ -513,6 +514,7 @@ const PublicationsTerminal: React.FC = () => {
                       <Badge
                         colorScheme={
                           pub.venueType === 'conference' ? 'blue' :
+                          pub.venueType === 'journal' ? 'cyan' :
                           pub.venueType === 'workshop' ? 'purple' :
                           pub.venueType === 'demo' ? 'orange' :
                           'green'

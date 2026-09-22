@@ -1,61 +1,81 @@
 {
-  "_comment": "中文版站点配置",
-
+  "_comment": "Your basic info. Edit the values below, then run: npm run dev",
   "template": "terminal",
   "components": {},
   "sections": [
-    "hero", "bio", "newsDisplay", "selectedPublications",
-    "journey", "skills", "mentorship", "talks", "teaching",
-    "accomplishments", "contact", "footer"
+    "hero",
+    "bio",
+    "newsDisplay",
+    "selectedPublications",
+    "experience",
+    "skills",
+    "accomplishments",
+    "visitors",
+    "contact",
+    "footer"
   ],
-
   "name": {
-    "full": "Cookie",
-    "first": "Cookie",
-    "nickname": "Cookie",
-    "last": "",
-    "display": "Cookie",
-    "authorVariants": ["Cookie"]
+    "full": "杨智涵",
+    "first": "智涵",
+    "nickname": "Zhihan",
+    "last": "杨",
+    "display": "杨智涵 (Zhihan Yang)",
+    "authorVariants": [
+      "Zhihan Yang",
+      "杨智涵",
+      "Yang, Z."
+    ]
   },
-
-  "title": "汪！我是 Cookie",
-  "tagline": "一只毛茸茸的博美，靠赖在主人身边写代码，一次握手换一块零食。",
-  "avatar": "cookie.jpg",
-
+  "title": "你好，我是杨智涵",
+  "tagline": "新加坡国立大学计算机硕士，2027 年 1 月入读阿尔伯塔大学计算机博士。研究兴趣：表格学习、生成模型与 AI 智能体。",
+  "avatar": "avatar.jpeg",
   "terminal": {
-    "username": "cookie",
+    "username": "zhihan",
     "rotatingSubtitles": [
-      "赖在主人身边",
-      "和弟弟 Lucas 玩耍",
-      "握手要零食",
-      "趴下装可怜",
-      "在主人腿上打盹"
+      "研究表格学习",
+      "构建生成模型",
+      "设计 AI 智能体",
+      "训练大模型"
     ],
     "skills": [
-      { "name": "握手", "icon": "FaHandshake" },
-      { "name": "趴下", "icon": "FaBed" },
-      { "name": "撒娇", "icon": "FaHeart" },
-      { "name": "跟着主人", "icon": "FaWalking" },
-      { "name": "午睡", "icon": "FaMoon" },
-      { "name": "零食谈判", "icon": "FaCookie" },
-      { "name": "和 Lucas 玩", "icon": "FaCat" },
-      { "name": "卖萌", "icon": "FaStar" }
+      {
+        "name": "大模型后训练",
+        "icon": "FaBrain"
+      },
+      {
+        "name": "表格学习",
+        "icon": "FaDatabase"
+      },
+      {
+        "name": "智能体",
+        "icon": "FaRobot"
+      },
+      {
+        "name": "PyTorch",
+        "icon": "FaCode"
+      },
+      {
+        "name": "Python / SQL / C++",
+        "icon": "FaTerminal"
+      },
+      {
+        "name": "Docker / Kubernetes",
+        "icon": "FaProjectDiagram"
+      }
     ],
-    "timezone": "America/Los_Angeles"
+    "timezone": "Asia/Singapore"
   },
-
   "contact": {
-    "email": "limyoonaxi@gmail.com",
-    "academicEmail": "limyoonaxi@gmail.com",
-    "hiringEmail": "limyoonaxi@gmail.com",
-    "location": "Yaoyao 在哪我在哪"
+    "email": "zhihanyeung@gmail.com",
+    "academicEmail": "",
+    "hiringEmail": "zhihanyeung@gmail.com",
+    "location": "新加坡"
   },
-
   "social": {
-    "github": "https://github.com/H-Freax/TermHub",
-    "linkedin": "",
+    "github": "https://github.com/kelvin715",
+    "linkedin": "https://www.linkedin.com/in/zhihan-yang715/",
     "medium": "",
-    "googleScholar": "",
+    "googleScholar": "https://scholar.google.com/citations?user=6zxy4DUAAAAJ",
     "twitter": "",
     "youtube": "",
     "bilibili": "",
@@ -63,31 +83,43 @@
     "csdn": "",
     "blog": ""
   },
-
-  "pets": [
-    {
-      "name": "Lucas (Lulu)",
-      "emoji": "🐱",
-      "image": "/images/lulu.jpg",
-      "title": "最佳伙伴 & 弟弟",
-      "description": "Cookie 的布偶猫弟弟。他们一起午睡、满屋追逐，还会抢窗边那块阳光最好的位置。"
-    }
-  ],
-
+  "pets": [],
   "features": {
     "publications": true,
     "projects": true,
-    "articles": true,
+    "articles": false,
     "experience": true,
     "news": true,
-    "pets": true,
-    "guide": true
+    "pets": false,
+    "guide": false
   },
-
   "heroSocialIcons": [
-    { "platform": "twitter", "icon": "SiX", "label": "X", "color": "#000" },
-    { "platform": "youtube", "icon": "FaYoutube", "label": "YouTube", "color": "#FF0000" }
+    {
+      "platform": "googleScholar",
+      "icon": "SiGooglescholar",
+      "label": "Google Scholar",
+      "color": "#4285F4"
+    },
+    {
+      "platform": "github",
+      "icon": "FaGithub",
+      "label": "GitHub",
+      "color": "#333333"
+    },
+    {
+      "platform": "linkedin",
+      "icon": "FaLinkedin",
+      "label": "领英",
+      "color": "#0A66C2"
+    }
   ],
-
-  "selectedPublicationIds": ["napcon2025-cuddle-optimization", "fetchml2024-warmth-seeking", "arxiv2025-cross-species-play"]
+  "selectedPublicationIds": [
+    "arxiv2026-forestllm",
+    "jbhi2025-adfound"
+  ],
+  "showPoweredBy": false,
+  "visitorGlobe": {
+    "_comment": "Paste your deployed Cloudflare Worker URL here. Empty = globe spins with no data.",
+    "endpoint": ""
+  }
 }

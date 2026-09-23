@@ -5,7 +5,7 @@
     "icon": "FaGraduationCap",
     "iconColor": "purple.400",
     "title": "Edmonton, here I come — starting my Ph.D. at UAlberta!",
-    "description": "It's official: I'll be starting my Ph.D. in Computer Science at the University of Alberta in January 2027. Now I just have to survive my first Canadian winter.",
+    "description": "It's official — Ph.D. in Computer Science at UAlberta, starting January 2027. Now to survive my first Canadian winter.",
     "date": "Jan 2027",
     "sortDate": "2027-01-01",
     "links": []
@@ -16,7 +16,7 @@
     "icon": "FaTrophy",
     "iconColor": "yellow.400",
     "title": "We made the TikTok TechJam Grand Finals!",
-    "description": "Our shopping copilot ARC made it all the way to the Grand Finals of TikTok TechJam 2026 — top 12 out of 600+ teams. Three very sleepless days, and somehow it all held together.",
+    "description": "Our shopping copilot ARC reached the Grand Finals of TikTok TechJam 2026 — top 12 of 600+ teams, after three sleepless days.",
     "date": "Sep 2026",
     "sortDate": "2026-09-11",
     "links": [
@@ -33,7 +33,7 @@
     "icon": "FaMedal",
     "iconColor": "orange.400",
     "title": "Made the Dean's List at NUS :)",
-    "description": "Placed on the Dean's List of the School of Computing (top 5%). A nice little reward for a semester that did not feel nice at all.",
+    "description": "Dean's List at the School of Computing (top 5%) — a nice reward for a semester that did not feel nice at all.",
     "date": "Jun 2026",
     "sortDate": "2026-06-01",
     "links": []
@@ -44,7 +44,7 @@
     "icon": "FaFileAlt",
     "iconColor": "green.400",
     "title": "ForestLLM, my work from my Microsoft internship, is out!!",
-    "description": "\"ForestLLM: Large Language Models Make Random Forest Great on Few-shot Tabular Learning\" is finally on arXiv! Turns out you can let an LLM design a random forest and then never call it again at test time.",
+    "description": "ForestLLM is on arXiv! Turns out you can let an LLM design a random forest and then never call it again at test time.",
     "date": "Jan 2026",
     "sortDate": "2026-01-15",
     "links": [
@@ -61,7 +61,7 @@
     "icon": "FaBriefcase",
     "iconColor": "teal.400",
     "title": "The Rakuten offer came through — new chapter!",
-    "description": "Got the offer in October and joined Rakuten Asia, working on reasoning-augmented product search for conversational shopping, post-trained with reinforcement learning. Teaching a model to ask the right question is harder than it sounds.",
+    "description": "Joined Rakuten Asia to work on reasoning-augmented product search. Teaching a model to ask the right question is harder than it sounds.",
     "date": "Oct 2025",
     "sortDate": "2025-10-01",
     "links": []
@@ -72,7 +72,7 @@
     "icon": "FaGraduationCap",
     "iconColor": "purple.400",
     "title": "NUS said yes — off to Singapore for my Master's!",
-    "description": "The offer from the National University of Singapore came through, so I'm back in Singapore, this time for an M.Sc. in Computer Science.",
+    "description": "The NUS offer came through, so I'm back in Singapore — this time for an M.Sc. in Computer Science.",
     "date": "Aug 2025",
     "sortDate": "2025-08-01",
     "links": []
@@ -83,7 +83,7 @@
     "icon": "FaBriefcase",
     "iconColor": "teal.400",
     "title": "Off to Beijing — I'm joining MSRA!",
-    "description": "Starting a research internship with the DKI group at Microsoft Research Asia, working on LLMs for few-shot tabular learning. Excited (and a little terrified).",
+    "description": "Research internship with the DKI group at MSRA, on LLMs for few-shot tabular learning. Excited, and a little terrified.",
     "date": "Feb 2025",
     "sortDate": "2025-02-01",
     "links": []
@@ -94,7 +94,7 @@
     "icon": "FaBriefcase",
     "iconColor": "purple.400",
     "title": "Wrapped up my time at 4Paradigm",
-    "description": "Six months as an Applied Scientist on recommender systems and LLM post-training. It showed me what machine learning actually looks like once real users are involved.",
+    "description": "Six months as an Applied Scientist on recommender systems and LLM post-training — my first look at ML with real users attached.",
     "date": "Jan 2025",
     "sortDate": "2025-01-31",
     "links": []
@@ -105,7 +105,7 @@
     "icon": "FaFileAlt",
     "iconColor": "blue.400",
     "title": "ADFound got accepted by IEEE JBHI!",
-    "description": "The acceptance email landed right in the middle of my time at 4Paradigm: ADFound was accepted by the IEEE Journal of Biomedical and Health Informatics. I read it about four times to make sure.",
+    "description": "ADFound was accepted by the IEEE Journal of Biomedical and Health Informatics. I read the email about four times to make sure.",
     "date": "Late 2024",
     "sortDate": "2024-10-01",
     "links": [
@@ -122,7 +122,7 @@
     "icon": "FaBriefcase",
     "iconColor": "purple.400",
     "title": "Starting my first full-time job at 4Paradigm",
-    "description": "Joining as an Applied Scientist in Shanghai, on recommender systems and LLM post-training. First real job, first real production system.",
+    "description": "Applied Scientist in Shanghai, on recommender systems and LLM post-training. First real job, first real production system.",
     "date": "Jul 2024",
     "sortDate": "2024-07-01",
     "links": []
@@ -133,7 +133,7 @@
     "icon": "FaGraduationCap",
     "iconColor": "purple.400",
     "title": "Graduated from Shandong University!",
-    "description": "Four years of software engineering, wrapped up — B.Eng. in hand, ranked 3rd out of 96. Time to find out what the real world wants.",
+    "description": "B.Eng. in Software Engineering, ranked 3rd out of 96. Time to find out what the real world wants.",
     "date": "Jun 2024",
     "sortDate": "2024-06-15",
     "links": []
@@ -144,7 +144,7 @@
     "icon": "FaBriefcase",
     "iconColor": "teal.400",
     "title": "Landed in Singapore — research attachment at A*STAR",
-    "description": "The SIPGA attachment kicked off at the Institute for Infocomm Research, working on uncertainty-based image-quality assessment for industrial defect detection. My first proper look at Singapore — turns out I'd be back.",
+    "description": "SIPGA attachment at I²R, on uncertainty-based image-quality assessment for industrial defect detection. My first look at Singapore.",
     "date": "Jan 2024",
     "sortDate": "2024-01-15",
     "links": []
@@ -155,7 +155,7 @@
     "icon": "FaGraduationCap",
     "iconColor": "cyan.400",
     "title": "Off to Hong Kong — visiting student at PolyU!",
-    "description": "A semester in the Biomedical Engineering department at The Hong Kong Polytechnic University, working on multimodal medical imaging for Alzheimer's disease. This is where the ADFound work began.",
+    "description": "A semester at PolyU on multimodal medical imaging for Alzheimer's disease — where the ADFound work began.",
     "date": "Sep 2023",
     "sortDate": "2023-09-01",
     "links": []
@@ -166,7 +166,7 @@
     "icon": "FaMedal",
     "iconColor": "yellow.400",
     "title": "Got the SIPGA award from A*STAR!",
-    "description": "Selected for the Singapore International Pre-Graduate Award, which comes with a research attachment at A*STAR starting in the new year. My first shot at doing research abroad.",
+    "description": "Selected for the Singapore International Pre-Graduate Award, with a research attachment at A*STAR in the new year.",
     "date": "Aug 2023",
     "sortDate": "2023-08-01",
     "links": []

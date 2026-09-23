@@ -5,7 +5,7 @@
     "icon": "FaGraduationCap",
     "iconColor": "purple.400",
     "title": "要去埃德蒙顿啦——阿尔伯塔大学博士入学！",
-    "description": "定啦！2027 年 1 月前往阿尔伯塔大学攻读计算机科学博士。接下来只要能熬过第一个加拿大的冬天就行。",
+    "description": "定啦！2027 年 1 月去阿尔伯塔大学读计算机科学博士。接下来只要熬过第一个加拿大冬天就行。",
     "date": "2027 年 1 月",
     "sortDate": "2027-01-01",
     "links": []
@@ -16,7 +16,7 @@
     "icon": "FaTrophy",
     "iconColor": "yellow.400",
     "title": "我们杀进 TikTok TechJam 全球总决赛啦！",
-    "description": "团队作品 ARC 购物助手一路闯进 TikTok TechJam 2026 全球总决赛，600+ 支队伍里排进前 12。熬了三个大夜，居然真的撑下来了。",
+    "description": "团队作品 ARC 购物助手闯进 TikTok TechJam 2026 全球总决赛，600+ 支队伍里排进前 12。熬了三个大夜，居然撑下来了。",
     "date": "2026 年 9 月",
     "sortDate": "2026-09-11",
     "links": [
@@ -33,7 +33,7 @@
     "icon": "FaMedal",
     "iconColor": "orange.400",
     "title": "入选新国大 Dean's List 啦 :)",
-    "description": "入选计算机学院院长嘉许名单（前 5%）。对一个一点都不轻松的学期来说，算是个不错的小回报。",
+    "description": "入选计算机学院院长嘉许名单（前 5%）。对一个一点都不轻松的学期来说，算个不错的回报。",
     "date": "2026 年 6 月",
     "sortDate": "2026-06-01",
     "links": []
@@ -44,7 +44,7 @@
     "icon": "FaFileAlt",
     "iconColor": "green.400",
     "title": "ForestLLM 发布啦——在微软实习期间完成的工作!!",
-    "description": "《ForestLLM: Large Language Models Make Random Forest Great on Few-shot Tabular Learning》终于挂上 arXiv 啦！原来真的可以让大模型先把随机森林设计好，然后测试时再也不调用它。",
+    "description": "ForestLLM 挂上 arXiv 啦！原来真的可以让大模型先把随机森林设计好，测试时再也不调用它。",
     "date": "2026 年 1 月",
     "sortDate": "2026-01-15",
     "links": [
@@ -61,7 +61,7 @@
     "icon": "FaBriefcase",
     "iconColor": "teal.400",
     "title": "乐天的 offer 来啦——新篇章开启！",
-    "description": "十月拿到 offer 后加入乐天亚洲，做面向对话式购物的推理增强商品搜索，并用强化学习做后训练。让模型学会「问对问题」，比想象中难多了。",
+    "description": "加入乐天亚洲，做面向对话式购物的推理增强商品搜索。让模型学会「问对问题」，比想象中难多了。",
     "date": "2025 年 10 月",
     "sortDate": "2025-10-01",
     "links": []
@@ -72,7 +72,7 @@
     "icon": "FaGraduationCap",
     "iconColor": "purple.400",
     "title": "收到 NUS 的 offer——去新加坡读硕士啦！",
-    "description": "新加坡国立大学的 offer 下来了，于是又回到新加坡，这次是读计算机科学硕士。",
+    "description": "新国大的 offer 下来了，于是又回到新加坡，这次是读计算机科学硕士。",
     "date": "2025 年 8 月",
     "sortDate": "2025-08-01",
     "links": []
@@ -94,7 +94,7 @@
     "icon": "FaBriefcase",
     "iconColor": "purple.400",
     "title": "在第四范式的这一段收官了",
-    "description": "半年应用科学家，做推荐系统与大模型后训练。是它让我真正看清，机器学习一旦面对真实用户是什么样子。",
+    "description": "半年应用科学家，做推荐系统与大模型后训练——第一次看清机器学习面对真实用户是什么样子。",
     "date": "2025 年 1 月",
     "sortDate": "2025-01-31",
     "links": []
@@ -105,7 +105,7 @@
     "icon": "FaFileAlt",
     "iconColor": "blue.400",
     "title": "ADFound 被 IEEE JBHI 录用啦！",
-    "description": "录用邮件正好是在第四范式工作那段时间收到的：ADFound 被 IEEE Journal of Biomedical and Health Informatics 接收。那封邮件我大概反复读了四遍才敢相信。",
+    "description": "ADFound 被 IEEE Journal of Biomedical and Health Informatics 接收。那封录用邮件我反复读了四遍才敢相信。",
     "date": "2024 年下半年",
     "sortDate": "2024-10-01",
     "links": [
@@ -144,7 +144,7 @@
     "icon": "FaBriefcase",
     "iconColor": "teal.400",
     "title": "落地新加坡——在 A*STAR 开始研究实习",
-    "description": "SIPGA 的研究实习正式开始，在资讯通信研究院做工业缺陷检测中基于不确定性的图像质量评估。第一次真正认识新加坡——没想到后来还会回来。",
+    "description": "SIPGA 研究实习正式开始，在资讯通信研究院做工业缺陷检测里基于不确定性的图像质量评估。第一次真正认识新加坡。",
     "date": "2024 年 1 月",
     "sortDate": "2024-01-15",
     "links": []
@@ -155,7 +155,7 @@
     "icon": "FaGraduationCap",
     "iconColor": "cyan.400",
     "title": "去香港啦——在港理工做访问学生！",
-    "description": "在香港理工大学生物医学工程系待了一学期，做面向阿尔茨海默病的多模态医学影像研究。ADFound 就是从这里开始的。",
+    "description": "在港理工生物医学工程系待了一学期，做面向阿尔茨海默病的多模态医学影像研究——ADFound 就是从这里开始的。",
     "date": "2023 年 9 月",
     "sortDate": "2023-09-01",
     "links": []
@@ -166,7 +166,7 @@
     "icon": "FaMedal",
     "iconColor": "yellow.400",
     "title": "拿到 A*STAR 的 SIPGA 奖学金啦！",
-    "description": "入选新加坡国际预研究生奖（SIPGA），附带一个在 A*STAR 的研究实习名额，次年 1 月开始。第一次有机会出国做研究。",
+    "description": "入选新加坡国际预研究生奖（SIPGA），附带次年 1 月开始的 A*STAR 研究实习名额。",
     "date": "2023 年 8 月",
     "sortDate": "2023-08-01",
     "links": []

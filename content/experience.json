@@ -36,12 +36,8 @@
       "category": "research",
       "roleType": "research",
       "isCurrent": true,
-      "summary": "Generative modeling of mixed-type tabular data, where the hard part is that numbers and categories don't live in the same space.",
-      "highlights": [
-        "Flow matching assumes a continuous space, but half of any real table is categorical. Variational flow matching gets around this by predicting a distribution over the endpoint rather than a velocity — and that distribution factorizes column by column, so a regression head can handle numerical features and a multiclass head categorical ones, under a single objective and with no embedding tricks.",
-        "There is no neural network anywhere in the generator: every head is an XGBoost ensemble, so it trains on CPU and inherits gradient boosting's tolerance for the skewed, heavy-tailed, wildly-different-scale columns real tables are full of.",
-        "Benchmarked against 12 neural and tree-based generators on nine public datasets, along three axes that usually pull against each other — distributional fidelity, downstream utility, and empirical privacy leakage. Best overall average rank of the 13."
-      ]
+      "summary": "Generative modeling of mixed-type tabular data, where the hard part is that numbers and categories don't live in the same space. My thesis builds an XGBoost-based variational flow-matching framework for it, which takes the best overall average rank against 12 neural and tree-based generators.",
+      "highlights": []
     },
     {
       "title": "Research Scientist Intern",
@@ -52,11 +48,8 @@
       "end": "2026-03-31",
       "category": "industry",
       "roleType": "research",
-      "summary": "Product search for when the query is a conversation rather than a keyword.",
-      "highlights": [
-        "“Something warmer than the last one, but not wool” is three constraints in one sentence. The system has an LLM pull the attributes apart, compare candidates against each one, filter, and then re-rank — so the comparison is explicit and inspectable instead of buried inside an embedding distance.",
-        "Post-trained with reinforcement learning on a composite reward that mixes relevance with engagement, on the premise that a result set which is technically correct and gets no clicks is still a failed search. It beat the SFT baselines on Recall@3 and task success for multi-intent queries."
-      ]
+      "summary": "Product search for when the query is a conversation rather than a keyword — an LLM pulls apart attributes, compares candidates and re-ranks, post-trained with reinforcement learning on a composite relevance-and-engagement reward.",
+      "highlights": []
     },
     {
       "title": "Research Intern",
@@ -67,11 +60,8 @@
       "end": "2025-06-30",
       "category": "research",
       "roleType": "research",
-      "summary": "Data, Knowledge and Intelligence group — what large language models are actually good for in tabular learning.",
-      "highlights": [
-        "ForestLLM uses the LLM as an offline forest designer rather than a predictor: it scores candidate splits for semantic coherence across labeled and unlabeled data, then distills each decision path into a stable leaf prediction. All of that happens once, at training time — what ships is an ordinary interpretable random forest with zero LLM calls at inference. State of the art on few-shot tabular classification and regression.",
-        "Also post-trained GPT, Qwen, LLaMA and DeepSeek for tabular question answering, mostly chasing the failure mode where a model reads the table correctly and then gets the arithmetic wrong."
-      ]
+      "summary": "Data, Knowledge and Intelligence group. Built ForestLLM, which uses a language model as an offline forest designer at training time so that nothing has to call it at inference.",
+      "highlights": []
     },
     {
       "title": "Applied Scientist",

@@ -36,11 +36,11 @@
       "category": "research",
       "roleType": "research",
       "isCurrent": true,
-      "summary": "Focus: XGBoost-based variational flow matching for mixed-type tabular generation.",
+      "summary": "Generative modeling of mixed-type tabular data, where the hard part is that numbers and categories don't live in the same space.",
       "highlights": [
-        "Designed an XGBoost-based variational flow-matching framework for mixed-type tabular generation, using regression heads for numerical features and multiclass classification heads for categorical features.",
-        "Implemented and benchmarked the Python pipeline against 12 neural and tree-based baselines on nine public datasets.",
-        "Achieved the best overall average rank among 13 generators while balancing fidelity, downstream utility, and empirical privacy risk."
+        "Flow matching assumes a continuous space, but half of any real table is categorical. Variational flow matching gets around this by predicting a distribution over the endpoint rather than a velocity — and that distribution factorizes column by column, so a regression head can handle numerical features and a multiclass head categorical ones, under a single objective and with no embedding tricks.",
+        "There is no neural network anywhere in the generator: every head is an XGBoost ensemble, so it trains on CPU and inherits gradient boosting's tolerance for the skewed, heavy-tailed, wildly-different-scale columns real tables are full of.",
+        "Benchmarked against 12 neural and tree-based generators on nine public datasets, along three axes that usually pull against each other — distributional fidelity, downstream utility, and empirical privacy leakage. Best overall average rank of the 13."
       ]
     },
     {
@@ -52,10 +52,10 @@
       "end": "2026-03-31",
       "category": "industry",
       "roleType": "research",
-      "summary": "Reasoning-augmented product search for conversational shopping.",
+      "summary": "Product search for when the query is a conversation rather than a keyword.",
       "highlights": [
-        "Built a reasoning-augmented product search system for conversational shopping, using an LLM to extract attributes, compare products, filter candidates, and re-rank results.",
-        "Post-trained the model with reinforcement learning on composite relevance and engagement rewards, improving Recall@3 and task success over SFT baselines on multi-intent queries."
+        "“Something warmer than the last one, but not wool” is three constraints in one sentence. The system has an LLM pull the attributes apart, compare candidates against each one, filter, and then re-rank — so the comparison is explicit and inspectable instead of buried inside an embedding distance.",
+        "Post-trained with reinforcement learning on a composite reward that mixes relevance with engagement, on the premise that a result set which is technically correct and gets no clicks is still a failed search. It beat the SFT baselines on Recall@3 and task success for multi-intent queries."
       ]
     },
     {
@@ -67,10 +67,10 @@
       "end": "2025-06-30",
       "category": "research",
       "roleType": "research",
-      "summary": "Data, Knowledge, and Intelligence group. Focus: LLMs for tabular learning and reasoning.",
+      "summary": "Data, Knowledge and Intelligence group — what large language models are actually good for in tabular learning.",
       "highlights": [
-        "Developed ForestLLM, an LLM-based approach for constructing interpretable random forests for few-shot tabular classification and regression.",
-        "Post-trained GPT, Qwen, LLaMA, and DeepSeek models for tabular question answering, improving numerical reasoning and table comprehension."
+        "ForestLLM uses the LLM as an offline forest designer rather than a predictor: it scores candidate splits for semantic coherence across labeled and unlabeled data, then distills each decision path into a stable leaf prediction. All of that happens once, at training time — what ships is an ordinary interpretable random forest with zero LLM calls at inference. State of the art on few-shot tabular classification and regression.",
+        "Also post-trained GPT, Qwen, LLaMA and DeepSeek for tabular question answering, mostly chasing the failure mode where a model reads the table correctly and then gets the arithmetic wrong."
       ]
     },
     {
@@ -82,11 +82,8 @@
       "end": "2025-01-31",
       "category": "industry",
       "roleType": "mle",
-      "summary": "Production ML for video recommendation and K-12 mathematical reasoning.",
-      "highlights": [
-        "Developed and evaluated production ML solutions for video recommendation and K-12 mathematical reasoning.",
-        "Work spanned feature engineering, model fine-tuning, and inference optimization."
-      ]
+      "summary": "Video recommendation and K-12 mathematical reasoning, in production — feature engineering, fine-tuning and inference optimization, on models that had to hold up in front of real users.",
+      "highlights": []
     },
     {
       "title": "Research Engineer Intern",
@@ -97,11 +94,8 @@
       "end": "2024-04-30",
       "category": "research",
       "roleType": "research",
-      "summary": "Industrial surface-defect detection under uncertainty.",
-      "highlights": [
-        "Researched uncertainty-based image-quality assessment for industrial surface-defect detection.",
-        "Explored multimodal data synthesis to augment scarce defect samples."
-      ]
+      "summary": "Uncertainty-based image-quality assessment for industrial surface-defect detection, plus multimodal data synthesis to make up for how few defect samples a real production line ever produces.",
+      "highlights": []
     }
   ]
 }

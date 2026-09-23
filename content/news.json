@@ -94,7 +94,7 @@
     "icon": "FaBriefcase",
     "iconColor": "purple.400",
     "title": "Wrapped up my time at 4Paradigm",
-    "description": "Six months as an Applied Scientist on video recommendation and K-12 math reasoning. It showed me what machine learning actually looks like once real users are involved.",
+    "description": "Six months as an Applied Scientist on recommender systems and LLM post-training. It showed me what machine learning actually looks like once real users are involved.",
     "date": "Jan 2025",
     "sortDate": "2025-01-31",
     "links": []
@@ -122,7 +122,7 @@
     "icon": "FaBriefcase",
     "iconColor": "purple.400",
     "title": "Starting my first full-time job at 4Paradigm",
-    "description": "Joining as an Applied Scientist in Shanghai, on video recommendation and K-12 mathematical reasoning. First real job, first real production system.",
+    "description": "Joining as an Applied Scientist in Shanghai, on recommender systems and LLM post-training. First real job, first real production system.",
     "date": "Jul 2024",
     "sortDate": "2024-07-01",
     "links": []

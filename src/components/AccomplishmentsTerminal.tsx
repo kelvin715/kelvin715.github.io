@@ -117,7 +117,11 @@ const AccomplishmentsTerminal: React.FC = () => {
   const { awards } = useLocalizedData()
   return (
     <Container maxW={["full", "full", "7xl"]} px={[2, 4, 8]}>
-      <Heading size={["sm", "md"]} mb={3}>{t('about.awardsAndHonors')}</Heading>
+      <Flex align="center" gap={3} mb={4}>
+        <Box h="2px" w="20px" bg="cyan.400" borderRadius="full" flexShrink={0} />
+        <Heading size="md" fontWeight="semibold">{t('about.awardsAndHonors')}</Heading>
+        <Box flex="1" h="1px" bg={useColorModeValue('gray.200', 'gray.700')} />
+      </Flex>
       <Text fontSize="xs" color={useColorModeValue('gray.500', 'gray.400')} mb={4}>
         {awards.length} {t('about.awardsSpanning')} {new Set(awards.map(a => a.kind)).size} {t('about.categories')}
       </Text>
